@@ -1,3 +1,7 @@
 Haiku lana kushnir 
 fork fork fork
 clone clone clone
+
+Just to add more lines
+Sso git will see some changes in this file
+blah blah blah
