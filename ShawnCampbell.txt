@@ -3,5 +3,11 @@ Remoting
 Cloning
 Lost
 Confusion
-Suprise that it
-Worked
+Suprise that itWorked
+
+Revisted
+When you
+go
+to check
+that it worked
+the confusion is renewed
