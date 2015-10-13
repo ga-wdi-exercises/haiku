@@ -1,3 +1,6 @@
+"My Haiku"
+-By Rachel "D-Day" Porter
+
 this class is the best
 Nick is a great instructor
 git sings in my ears
