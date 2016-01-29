@@ -10,11 +10,11 @@ You do not have the necessary rights to update this repository.  Therefore, you 
 On https://github.com/ga-dc/haiku:
 
 1. Fork this repo to your personal account.
-2. Copy the "HTTPS clone URL" for your fork of this repo.
+2. Copy the "SSH clone URL" for your fork of this repo.
 
 Starting in ~/wdi/exercises:
 
-1. Clone the repository to your computer (make sure to use the url for your fork, and *not* this original repo), e.g. `git clone https://github.com/adambray/haiku.git`.  Note: The `git clone` command will create a new "haiku" dir and copy the repo into it.
+1. Clone the repository to your computer (make sure to use the url for your fork, and *not* this original repo), e.g. `git clone git@github.com:adambray/haiku.git`.  Note: The `git clone` command will create a new "haiku" dir and copy the repo into it.
 2. Change to the newly create "haiku" dir (`cd haiku`).
 3. You can see that the clone command has already setup your origin (`git remote -v`).
 4. Open the current directory in your text editor (`atom .`).
