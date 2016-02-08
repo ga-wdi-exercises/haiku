@@ -1,6 +1,10 @@
 # haiku
 An exercise in forking and creating a pull requests.
 
+## First, run through the below exercise to add your SSH key
+- https://github.com/ga-wdi-lessons/git-ssh
+**If you cannot get it to work, then use HTTPS for the below instructions (#2)**
+
 ## Learning Objectives
 - Practice using the 'fork, clone, and pull request' model to submit assignments
 
@@ -11,6 +15,7 @@ On https://github.com/ga-dc/haiku:
 
 1. Fork this repo to your personal account.
 2. Copy the "SSH clone URL" for your fork of this repo.
+* **This is where the SSH or HTTPS links come into play**
 
 Starting in ~/wdi/exercises:
 
