@@ -15,6 +15,7 @@ On https://github.com/ga-dc/haiku:
 
 1. Fork this repo to your personal account.
 2. Copy the "SSH clone URL" for your fork of this repo.
+* **This is where the SSH or HTTPS links come into play**
 
 Starting in ~/wdi/exercises:
 
