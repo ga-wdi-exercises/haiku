@@ -1,0 +1,3 @@
+Git is very cool.
+Version control is quite neat.
+Collaboration.
