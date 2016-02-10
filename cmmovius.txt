@@ -3,3 +3,5 @@ Version control is quite neat.
 Collaboration.
 
 I already made a pull request, but let's see if these changes show up!
+
+It turns out that I didn't make a pull request the first time. Now that I have successfully pulled, let's see if these changes show up!
