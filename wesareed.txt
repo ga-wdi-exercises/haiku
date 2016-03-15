@@ -1,0 +1,3 @@
+git status git diff
+git clone git add what's this git
+git remote git clone
