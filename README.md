@@ -20,7 +20,7 @@ On https://github.com/ga-dc/haiku:
 Starting in ~/wdi/exercises:
 
 1. Clone the repository to your computer (make sure to use the url for your fork, and *not* this original repo), e.g. `git clone git@github.com:adambray/haiku.git`.  Note: The `git clone` command will create a new "haiku" dir and copy the repo into it.
-2. Change to the newly create "haiku" dir (`cd haiku`).
+2. Change to the newly created "haiku" dir (`cd haiku`).
 3. You can see that the clone command has already setup your origin (`git remote -v`).
 4. Open the current directory in your text editor (`atom .`).
 5. Create a text file named `your_gh_username.txt`, e.g. `adambray.txt`.
