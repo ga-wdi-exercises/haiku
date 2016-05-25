@@ -1,0 +1,3 @@
+Programming is hard
+and so is version control
+but I will do both 
