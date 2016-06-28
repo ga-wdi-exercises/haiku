@@ -1,3 +1,3 @@
 With subtle key strokes,
-Coding for loops and functions
-Hoping it will work.
+coding for loops and functions
+hoping it will work.
