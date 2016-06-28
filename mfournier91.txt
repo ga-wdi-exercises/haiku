@@ -1,0 +1,3 @@
+Fork, clone, Edit it.
+Add, commit, push origin.
+Pull request. That's it!
