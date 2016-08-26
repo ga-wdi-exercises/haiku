@@ -24,8 +24,11 @@ Starting in ~/wdi/exercises:
 3. You can see that the clone command has already setup your origin (`git remote -v`).
 4. Open the current directory in your text editor (`atom .`).
 5. Create a text file named `your_gh_username.txt`, e.g. `adambray.txt`.
-6. Write a haiku on a topic of your choice, commit it, and push (sync) it to your remote.
-7. You should see this commit on your forked repo on github.
+6. Write a haiku on a topic of your choice, commit it and push it.
+7. Make one more commit that removes your Haiku. 
+8. Undo the commit you just made. Thing to Google is "undo last commit". (Hint: use `git revert`)
+9. Push everything to your remote.
+10. You should still see your haiku on Github.
 
 Create a Pull Request:
 
