@@ -1,0 +1,3 @@
+GitHub simplifies
+remote repositories.
+Pull is fetch plus merge.
