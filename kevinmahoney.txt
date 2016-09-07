@@ -1,0 +1,3 @@
+making changes on local repo
+git add them all to stage them
+commit the changes with comment 
