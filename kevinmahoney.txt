@@ -1,0 +1,3 @@
+making changes on local file
+git add to send to my repo
+commit changes with a comment 
