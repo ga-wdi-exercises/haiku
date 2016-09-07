@@ -1,0 +1,134 @@
+Last login: Wed Sep  7 13:03:19 on console
+  Wed Sep 07 13:05:48 ~ (master)
+$ pwd
+/Users/MICHAELS_MAC
+  Wed Sep 07 13:05:52 ~ (master)
+$ cd  ~/wdi/exercises
+  Wed Sep 07 13:05:59 ~/wdi/exercises (master)
+$ pwd
+/Users/MICHAELS_MAC/wdi/exercises
+  Wed Sep 07 13:06:01 ~/wdi/exercises (master)
+$ git clone git@github.com:merubin/haiku.git
+Cloning into 'haiku'...
+remote: Counting objects: 52, done.
+remote: Total 52 (delta 0), reused 0 (delta 0), pack-reused 52
+Receiving objects: 100% (52/52), 7.31 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (10/10), done.
+Checking connectivity... done.
+  Wed Sep 07 13:07:28 ~/wdi/exercises (master)
+$ cd haiku
+  Wed Sep 07 13:07:40 ~/wdi/exercises/haiku (master)
+$ pwd
+/Users/MICHAELS_MAC/wdi/exercises/haiku
+  Wed Sep 07 13:07:42 ~/wdi/exercises/haiku (master)
+$ tree
+.
+├── README.md
+└── spec
+    └── haiku_spec.js
+
+1 directory, 2 files
+  Wed Sep 07 13:07:46 ~/wdi/exercises/haiku (master)
+$ atom .
+  Wed Sep 07 13:08:12 ~/wdi/exercises/haiku (master)
+$ git remote
+origin
+  Wed Sep 07 13:09:19 ~/wdi/exercises/haiku (master)
+$ git remote -v
+origin 	git@github.com:merubin/haiku.git (fetch)
+origin 	git@github.com:merubin/haiku.git (push)
+  Wed Sep 07 13:09:25 ~/wdi/exercises/haiku (master)
+$ touch merubin.txt
+  Wed Sep 07 13:10:47 ~/wdi/exercises/haiku (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+       	merubin.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+  Wed Sep 07 13:20:50 ~/wdi/exercises/haiku (master)
+$ git add merubin.txt
+  Wed Sep 07 13:20:58 ~/wdi/exercises/haiku (master +)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+       	new file:   merubin.txt
+
+  Wed Sep 07 13:21:03 ~/wdi/exercises/haiku (master +)
+$ git commit -m "Initial Commit"
+[master 106d878] Initial Commit
+ 1 file changed, 3 insertions(+)
+ create mode 100644 merubin.txt
+  Wed Sep 07 13:21:19 ~/wdi/exercises/haiku (master)
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 429 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:merubin/haiku.git
+   666ebd3..106d878  master -> master
+  Wed Sep 07 13:21:53 ~/wdi/exercises/haiku (master)
+$ del merubin.txt
+-bash: del: command not found
+  Wed Sep 07 13:22:43 ~/wdi/exercises/haiku (master)
+$ rm merubin.txt
+  Wed Sep 07 13:22:49 ~/wdi/exercises/haiku (master *)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+       	deleted:    merubin.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+  Wed Sep 07 13:23:08 ~/wdi/exercises/haiku (master *)
+$ git add merubin.txt
+  Wed Sep 07 13:23:26 ~/wdi/exercises/haiku (master +)
+$ git commit -m "removed Haiku"
+[master 0ae158d] removed Haiku
+ 1 file changed, 3 deletions(-)
+ delete mode 100644 merubin.txt
+  Wed Sep 07 13:23:50 ~/wdi/exercises/haiku (master)
+$ git revert HEAD
+[master 546eddc] Revert "removed Haiku"
+ 1 file changed, 3 insertions(+)
+ create mode 100644 merubin.txt
+  Wed Sep 07 13:29:10 ~/wdi/exercises/haiku (master)
+$ ls
+README.md      	merubin.txt    	spec
+  Wed Sep 07 13:30:58 ~/wdi/exercises/haiku (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+  Wed Sep 07 13:33:38 ~/wdi/exercises/haiku (master)
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 492 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 1 (delta 0)
+To github.com:merubin/haiku.git
+   106d878..546eddc  master -> master
+  Wed Sep 07 13:34:09 ~/wdi/exercises/haiku (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+  Wed Sep 07 13:34:23 ~/wdi/exercises/haiku (master)
+$ pwd
+/Users/MICHAELS_MAC/wdi/exercises/haiku
+  Wed Sep 07 13:46:48 ~/wdi/exercises/haiku (master)
+$ touch cli_output.txt
+  Wed Sep 07 13:47:08 ~/wdi/exercises/haiku (master)
+$
