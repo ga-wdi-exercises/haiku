@@ -1,3 +1,0 @@
-floats, clears, and fixes
-trial and error, not quite right
-I think I'll use flex
