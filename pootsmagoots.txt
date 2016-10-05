@@ -1,3 +1,0 @@
-"I like to code"
-"Coding is a lot of fun"
-"What is Java Script again?"
