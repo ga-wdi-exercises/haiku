@@ -1,7 +1,0 @@
-Here is the weather
-For today here in Japan,
-<<<<<<< HEAD
-It's snowing on Mt. Fuji.
-=======
-It's snowing on Mt. Fuji..
->>>>>>> parent of 401a233... remove everything
