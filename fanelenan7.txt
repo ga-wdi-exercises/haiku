@@ -1,0 +1,3 @@
+Version control
+Lesson is on, push and pull,
+Seems quite alright.
