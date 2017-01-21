@@ -1,11 +1,3 @@
-Evidently cant
-write a haiku here
-but close enough
-
-
-
-
-/// totally messed that up the first time, tried to reset then soft reset then checkout her and there and then just pull from online
 # haiku
 An exercise in forking and creating a pull requests.
 
