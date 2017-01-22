@@ -1,0 +1,6 @@
+VIM. 
+A haiku. 
+
+To insert press I
+Escape to move around but
+VIM is hard, VIM why?
