@@ -1,3 +1,0 @@
-i am learning git
-how to fork clone push and pull
-now i must commit
